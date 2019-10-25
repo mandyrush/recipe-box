@@ -3,22 +3,26 @@
     <header>
       <NavBar />
     </header>
-    
+
     <router-view />
+
+    <footer>
+      Footer
+    </footer>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-  import NavBar from "@/components/NavBar.vue";
+import NavBar from "@/components/NavBar.vue";
 
-  export default {
-    components: {
-      NavBar
-    }
+export default {
+  components: {
+    NavBar
   }
+};
 </script>
 
 <style lang="scss">
-  @import '@/assets/css/colors.scss';
+@import "@/assets/css/colors.scss";
 </style>
