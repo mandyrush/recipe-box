@@ -1,15 +1,15 @@
 <template>
-  <section>
+  <main class="container-fluid">
     <h2>My Recipes</h2>
 
     <router-link :to="{ name: 'my-recipes-add' }">Add Recipe</router-link>
 
-    <div class="row">
-      <div class="col-8">
+    <div class="row justify-content-center">
+      <article class="col-md-8">
         <RecipeList />
-      </div>
+      </article>
     </div>
-  </section>
+  </main>
 </template>
 
 <script>

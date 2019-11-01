@@ -1,15 +1,13 @@
 <template>
-  <section>
+  <main class="container-fluid">
     <h2>Calendar</h2>
 
-    <div class="row">
-      <div class="col-6">
-        <article>
-          <MenuDay />
-        </article>
-      </div>
+    <div class="row justify-content-center">
+      <article class="col-md-8">
+        <MenuDay />
+      </article>
     </div>
-  </section>
+  </main>
 </template>
 
 <script>

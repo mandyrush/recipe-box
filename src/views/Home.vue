@@ -1,21 +1,17 @@
 <template>
-  <section>
+  <main class="container-fluid">
     <h2>Thursday, October 24, 2019</h2>
 
-    <div class="row">
-      <div class="col-6">
-        <article>
-          <MenuDay />
-        </article>
-      </div>
+    <div class="row justify-content-center">
+      <article class="col-lg-5">
+        <MenuDay />
+      </article>
 
-      <div class="col-3">
-        <article>
-          <GroceryList />
-        </article>
-      </div>
+      <aside class="col-lg-3">
+        <GroceryList />
+      </aside>
     </div>
-  </section>
+  </main>
 </template>
 
 <script>
